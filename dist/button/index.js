@@ -60,7 +60,7 @@ Component({
 
     methods: {
         handleTap () {
-            if (this.data.disabled) return false;
+            if (this.data.disabled || this.data.loading) return false;
 
             this.triggerEvent('click');
         },
