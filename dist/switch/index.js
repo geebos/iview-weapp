@@ -29,7 +29,7 @@ Component({
         toggle(){
             if( this.data.disabled ) return;
             const data = this.data;
-            const value = !data.value;\
+            const value = !data.value;
             this.setData({
                 value: value,
             });
